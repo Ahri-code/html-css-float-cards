@@ -1,11 +1,11 @@
 * {
-    margin: 0px;
+    margin: 0px auto;
     font-family: 'Nunito', sans-serif;
+    max-width: 1000px;
 }
 
 header {
     text-align: center;
-    max-width: 1000px;
     margin: 30px auto;
 }
 
@@ -19,3 +19,34 @@ header p {
     font-weight: 300;
 }
 
+#top ::after {
+    clear: both;
+}
+
+.black-box {
+    background-color: #0f0e17;
+    color: white;
+    width: 32%;
+    display: inline-block;
+}
+
+.margin {
+    margin-left: 1.5%;
+}
+
+img {
+    height: 87px;
+    float: left;
+}
+
+.float-text {
+    vertical-align: middle;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    padding-left: 97px;
+}
+
+a {
+    color: #31ace4;
+    text-decoration: none;
+}
